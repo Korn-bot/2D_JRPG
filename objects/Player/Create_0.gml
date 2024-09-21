@@ -3,22 +3,26 @@
 
 
 // Local Variables
-yspd = 0; 
-xspd = 0;
-
+Speed = 2;
 
 // functions Creating 
 
 
-function Move_UP(char_key){
-	 if(keyboard_check(char_key) = 1){yspd += yspd +1}
+function Move_UP(){
+	 if(keyboard_check(ord(global.Global_UP)) = 1){self.y -= Speed};
 };
-function Move_DOWN(char_key){
-	 if(keyboard_check(char_key) = 1){yspd += yspd -1}
+function Move_DOWN(){
+	 if(keyboard_check(ord(global.Global_DOWN)) = 1){self.y += Speed};
 };
-function Move_LEFT(char_key){
-	 if(keyboard_check(char_key) = 1){xspd += xspd +1}
+function Move_LEFT(){
+	 if(keyboard_check(ord(global.Global_RIGHT)) = 1){self.x -= Speed};
 };
-function Move_RIGHT(char_key){
-	 if(keyboard_check(char_key) = 1){xspd += xspd -1}
+function Move_RIGHT(){
+	 if(keyboard_check(ord(global.Global_LEFT)) = 1){self.x += Speed};
+};
+function Movment(){
+	Move_UP();
+	Move_DOWN();
+	Move_LEFT();
+	Move_RIGHT();
 };
