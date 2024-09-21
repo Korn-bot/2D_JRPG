@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"tsIsland_Sprites",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"tsIsland_Sprites",
+  "out_columns":8,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Enviroment",
+    "path":"folders/Tile Sets/Enviroment.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"Island_Sprites",
+    "path":"sprites/Island_Sprites/Island_Sprites.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":24,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":24,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":72,
+}

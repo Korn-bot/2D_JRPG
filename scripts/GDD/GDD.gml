@@ -9,8 +9,13 @@ Old style Horror anime-esk ? rpg
 	3-> TrigerBox functions
 	
 2 : Game State ( Menu,Pause,Game,Battle?,Textbox-converstaion )
-
+	
+		
 3 : Textboxes - with text appearing one after another
 
-4 : Fighting system ? -> Turn based ? 
+	
+		
+		
+
+
 

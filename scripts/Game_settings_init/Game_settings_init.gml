@@ -7,13 +7,4 @@ function Game_settings_init(){
 	global.Global_DOWN = "S"
 	global.Global_RIGHT = "D"
 	global.Global_LEFT = "A"
-
-	global.gamestate = 1;
-	
-	enum GameState{
-		Default = 0,
-		Game = 1,
-		TextBox = 2,
-		Options =3
-	}
 }
