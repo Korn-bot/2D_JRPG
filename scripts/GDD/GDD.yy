@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"GDD",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"GDD",
+  "parent":{
+    "name":"Notes",
+    "path":"folders/Notes.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
