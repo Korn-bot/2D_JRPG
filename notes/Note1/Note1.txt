@@ -1,0 +1,19 @@
+GameState machine
+
+1 : Menu
+2 : Game
+3 : Cutsence ( counts as text appearing ) : Game Stops Until a timer or something finishes
+4 : In game menu ( draw the menu on top of the game and stop the game) : wroks as pause
+
+
+Hierarcy is 
+
+Menu->Options->Cursnes->Game
+
+
+For game to go back to menu u need to do : Game->Options->Menu
+For going from Menu to game you need to do : Menu->Game
+
+
+Options: Keep the state of the room/game intact , open a new room 
+

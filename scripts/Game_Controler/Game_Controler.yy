@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Game_Controler",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Game_Controler",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
