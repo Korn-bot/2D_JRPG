@@ -2,14 +2,18 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Game_Controler(){
 
-	L_OPTIONS = layer_get_id("OPTIONS");	
-	L_OPTIONS_BG = layer_get_id("OPTIONS_BG");
+	if(global.GAME_STATE == "GAME" or global.GAME_STATE == "CS"){
+		L_OPTIONS = layer_get_id("OPTIONS");	
+		L_OPTIONS_BG = layer_get_id("OPTIONS_BG");
 	
-	L_GAME = layer_get_id("GAME");
-	L_GAME_BG = layer_get_id("GAME_BG");
+		L_GAME = layer_get_id("GAME");
+		L_GAME_BG = layer_get_id("GAME_BG");
 	
-	L_CS = layer_get_id("CS");
-	L_CS_BG = layer_get_id("CS_BG");
+		L_CS = layer_get_id("CS");
+		L_CS_BG = layer_get_id("CS_BG");
+	}
+	
+
 	
 	switch global.GAME_STATE{
 		
@@ -53,6 +57,7 @@ function Game_Controler(){
 function Options_Checker(){
 	
 	if(keyboard_check(vk_escape)){
-		global.GAME_STATE = "CS"
+		global.GAME_STATE = "OPTIONS"
+		room_goto(1);
 	}
 }

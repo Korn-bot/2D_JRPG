@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"Trigger_box_Logic",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Trigger_Boxes",
+    "path":"folders/Scripts/Trigger_Boxes.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"Player_Controler",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Character",
+    "path":"folders/Scripts/Character.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

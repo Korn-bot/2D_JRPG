@@ -9,9 +9,14 @@ Old style Horror anime-esk ? rpg
 	3-> TrigerBox functions
 	
 2 : Game State ( Menu,Pause,Game,Battle?,Textbox-converstaion )
+
+	NO clue if it work yets ( kind of does ) 
 	
 		
 3 : Textboxes - with text appearing one after another
+
+4 : Debug Info Display
+	DONE
 
 	
 		

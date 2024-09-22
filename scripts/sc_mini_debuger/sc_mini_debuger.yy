@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"Trigger_Box_Init",
+  "%Name":"sc_mini_debuger",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Trigger_Box_Init",
+  "name":"sc_mini_debuger",
   "parent":{
-    "name":"Trigger_Boxes",
-    "path":"folders/Scripts/Trigger_Boxes.yy",
+    "name":"Game Settings",
+    "path":"folders/Scripts/Game Settings.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

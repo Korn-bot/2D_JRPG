@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"Game_Controler",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Game Settings",
+    "path":"folders/Scripts/Game Settings.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -1,5 +1,1 @@
 Player_Contoler();
-
-
-
-
